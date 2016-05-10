@@ -1,0 +1,61 @@
+/*Mastery styles*/
+.masteryImg {
+  opacity: .25;
+  width: 25%;
+  margin-left: 6.25%;
+  margin-top: 12.5%;
+}
+.details {
+  z-index: 0;
+  width: 100%;
+  display: block;
+  background: black;
+  position: relative;
+  margin-top: -50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.mastery-container {
+  display: inline-block;
+  width: 25%;
+  margin-top: 50px;
+  margin-left: 5%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.left-mastery-container {
+  background: #670000;
+}
+.middle-mastery-container {
+  background: #01393E;
+}
+.right-mastery-container {
+  background: #005200;
+}
+.two {
+  margin-left: 16%;
+}
+/* runes styles */
+.runes-container {
+  margin-top: 50px;
+  margin-left: 5%;
+  width: 56%;
+  height: 66%;
+  background-image: url('/Assets/runeBackground.png');
+  position: relative;
+  display: inline-block;
+}
+.runes-description {
+  width: 29%;
+  margin-left: 5%;
+  position: relative;
+  display: inline-block;
+}
+.rune-blurb {
+  display: block;
+  font-size: 16px;
+}
+.rune-image {
+  width: 8%;
+  height: 8%;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> champMastery </title>
+	  <link href="/Styles/reset.css" type="text/css" rel="stylesheet" />
+    <link href="/Styles/base.css" type="text/css" rel="stylesheet" />
+		<link href="/Styles/layout.css" type="text/css" rel="stylesheet" />
+		<link href="/Styles/module.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+		<header>
+			<a href="/">
+				<img class="logo" src="/Assets/Hecarim.png">
+				</img>
+			</a>
+				<a href="/"> One Trick Pony </a>
+		</header>
+
+		<!--Home page-->
+		<section class="champion-selection-page page">
+	    <form class="champion-name">
+				<select name="champion-drop-down">
+					<option value="Champions">Champions</option>
+				</select>
+	    </form>
+	    <div class="champion-list-container">
+	    </div>
+		</section>
+
+		<!--List of 10 one tricks based on champion chosen-->
+		<section class="summoner-selection-page page">
+			<div class="summoner-wrapper">
+			</div>
+		</section>
+
+		<!--List of 10 games by one trick chosen-->
+		<section class="game-selection-page page">
+			<div class="games-wrapper">
+				<div class="mastery-container">
+				</div>
+				<div class="runes-container">
+				</div>
+				<div class="items-container">
+				</div>
+			</div>
+		</section>
+		<!--Scripts-->
+		<a href="/">
+			<img class="logo-mobile" src="/Assets/Hecarim.png">
+			</img>
+		</a>
+		<p class="disclaimer"> One Trick Pony isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+		</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="/Scripts/page.js"></script>
+		<script src="/Data/gameInfo.js"></script>
+		<script src="/Scripts/summonerListView.js"></script>
+		<script src="/Scripts/beginnings.js"></script>
+		<script src="/Scripts/controller.js"></script>
+		<script src="/Scripts/routesController.js"></script>
+		<script src="/Scripts/routes.js"></script>
+  </body>
+</html>

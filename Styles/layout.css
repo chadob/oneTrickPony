@@ -1,0 +1,223 @@
+body {
+  background: #242526;
+}
+header {
+  height: 70px;
+  width: 100%;
+  border-bottom: 5px solid white;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  left: 5px;
+  position: absolute;;
+}
+
+header a {
+  font-size: 48px;
+  text-decoration: none;
+}
+header a:visited {
+  color: white;
+}
+.page {
+  width: 1000px;
+  margin: 100px auto;
+
+  position: relative;
+  display: none;
+}
+
+/* style for initial page */
+.champion-selection-page {
+  display: none;
+}
+.champion-name {
+  padding-top: 25px;
+}
+select {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+.champion-list-container {
+  margin-top: 25px;
+  width: 100%;
+}
+.champion-picture-container {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.champion-picture-container span {
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.champion-picture-container span {
+  color: white;
+}
+.champ-picture {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+  opacity: .8;
+}
+.champ-picture:hover {
+  opacity: 1;
+}
+/*style for One trick pony list*/
+.summoner-selection-page {
+  display: none;
+}
+.one-trick {
+  width: 100%;
+  height: 100px;
+  margin: 20px auto;
+  position: relative;
+
+}
+.one-trick .summoner-name {
+  position: absolute;
+  left: 370px;
+  top: 20px;
+}
+.one-trick .summoner-name:hover {
+  color: white;
+}
+.one-trick img {
+  position: absolute;
+  margin-left: 250px;
+  height: 100px;
+  display: inline-block;
+}
+.one-trick .region {
+  position: absolute;
+  font-size: 20px;
+  display: inline-block;
+  left: 370px;
+  bottom: 14px;
+}
+.one-trick .rank {
+  position: absolute;
+  font-size: 16px;
+  display: inline-block;
+  left: 570px;
+  top: 30px;
+}
+.one-trick .championPoints {
+  position: absolute;
+  font-size: 20px;
+  display: inline-block;
+  left: 520px;
+  bottom: 14px;
+}
+
+/* styles for one trick pony game list */
+.game-selection-page {
+  display: block;
+}
+/*styles for game details */
+.game-info-page {
+  display: none;
+}
+.game-link {
+  margin-top: 100px;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100px;
+  border-bottom: 5px solid white;
+  border-radius: 50px;
+  z-index: 1;
+  background: #242526;
+}
+.game-link > img {
+  position: absolute;
+  width: 10%;
+  left: 5%;
+}
+.summoner-spells-wrapper {
+  width: 5%;
+  position: absolute;
+  left: 15%;
+}
+.summonerSpell {
+  width: 100%;
+}
+.name-queue-wrapper {
+  left: 22.5%;
+  width: 22.5%;
+  position: absolute;
+}
+.summoner-name {
+  display: block;
+  font-size: 32px;
+  margin-left: 0 auto;;
+}
+.map {
+  display: block;
+  font-size: 16px;
+  margin: 5px, auto;
+}
+.queue {
+  font-size: 16px;
+  display: block;
+  margin: 5px, auto;
+}
+.result-wrapper {
+  position: absolute;
+  width: 7.5%;
+  top: 28px;
+  left: 40%;
+}
+.victory {
+  display: block;
+  font-size: 32px;
+}
+.kda {
+  display: block;
+  font-size: 24px;
+}
+.matchDuration {
+  font-size: 14px;
+}
+.items {
+  display: inline-block;
+  position: absolute;
+  width: 47.5%;
+  left: 52.5%;
+}
+.item {
+  margin-top: 3.5%;
+  height: 66%;
+}
+
+/* Closing */
+.logo-mobile {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+.disclaimer {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+}
+@media only screen and (max-width: 640px) {
+  .logo {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+}
